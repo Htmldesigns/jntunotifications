@@ -1,0 +1,102 @@
+*{margin: 0px;padding: 0px;}
+body{font: normal normal 11px Arial,Tahoma,Helvetica,FreeSans,sans-serif;color: #2e2e2e;background: #f0f0f0 none no-repeat scroll center center;font-size: 15px;}
+ul{list-style: none;}
+.outer-wraper{width: 1200px; margin: 5px auto auto auto;background: #fff;}
+.header{width: 100%;height: 95px;padding: 15px;}
+.logo{float: left;}
+.add{float: left;padding-left: 189px;}
+.nav{width: 100%;background-color: #494949;height: 35px;color: #fff;padding-top: 10px;}
+.nav ul li{float: left;padding-left: 40px;}
+.top-add{width: 100%;text-align: center;height: 110px;padding-top: 10px;}
+.results-tab{padding-left: 20px;height: 400px;}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;width: 385px;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    padding: 14px 133px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #FFF;
+    width: 133px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+.nav ul li a:hover{/*background-color: #FFF;*/ color: #d2cdcd;}
+.nav ul li a{ color: #FFF;text-decoration: none;padding: 8px; }
+.nav li ul {
+    display:none;
+    position:absolute; 
+
+}
+.nav li ul li{ padding-bottom: 10px;
+    /* padding-right: 42px; */
+    padding-left: 10px; }
+.nav li ul a {color: #FAFDFA; }
+.nav li ul a:hover { color:  #d2cdcd; }
+/*.nav li:hover ul{ display:block; background:#494949; height:auto; width:9em;margin-top: 18px; }*/
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #ccc;
+    border-top: none;*/
+}
+.tabresult li{padding-bottom: 20px;}
+.resultk-color{color: #fb6e09;text-decoration: none;}
+.resultk-color1{color: #050007;text-decoration: none;}
+.resultk-color2{color: #5b0085;text-decoration: none;}
+
+.tabresult{list-style-image: url('../images/hand-right.png');list-style-position: inside;}
+.newimg{box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.32);margin-left: 10px;}
+
+/* #################Body styels ################*/
+.content{height: 515px;padding: 15px;}
+#vertical-left{float: left;width: 150px;border: 1px solid #b3acac;height: 500px;-webkit-box-shadow: 0 0 3px #CACACA;box-shadow: 0 0 3px #CACACA; }
+#text{float: left;width: 865px;height: 500px}
+#vertical-right{float: left;width: 150px;border: 1px solid #b3acac;height: 500px;-webkit-box-shadow: 0 0 3px #CACACA;box-shadow: 0 0 3px #CACACA; }
+.notifications{padding-left: 55px;}
+.notifications li{ padding-bottom: 10px;list-style-image: url('../images/rightarrow1.png');
+} 
+.notifications li span{position: relative;top: -8px;  }
+#timetable{float: left;width: 804px;height: 460px;margin-left: 10px;margin-right: 10px;border: 1px solid #b7afaf;-webkit-box-shadow: 0 0 3px #CACACA;box-shadow: 0 0 3px #CACACA;padding: 20px; }
+#heading{border-bottom: 1px solid #b7afaf;padding-bottom: 10px;}
+.time-content{padding-top: 25px;}
+.date{padding-top: 15px;}
+.timedesc{padding-top: 15px;}
+#submenu2{z-index: 9999;}
+#submenu1{z-index: 9999;}
+#submenu{z-index: 9999;}
+.color1{color: #fb6e09;text-decoration: none;}
+.color2{color: #86670A;text-decoration: none;}
+.color3{color: #681475;text-decoration: none;}
+.post-title{text-decoration: none;}
+.footer{width: 100%;height: 50px;text-align: center;background-color: black;color: #FFF;line-height: 50px;}
+
+
+
+
+
+
+
